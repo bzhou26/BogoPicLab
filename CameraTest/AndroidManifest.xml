@@ -10,6 +10,9 @@
     <!-- Add permission for camera (android.permission.CAMERA) -->
     
     <!-- Add permission for writing to external storage (android.permission.WRITE_EXTERNAL_STORAGE) -->
+    <users-permission android:name="android.permission.CAMERA" />
+    <users-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    
     
     <application
         android:icon="@drawable/ic_launcher"
